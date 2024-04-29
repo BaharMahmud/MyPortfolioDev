@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './About.css';
+import './about.css';
 const About = () => {
   // Scroll the About component into view when the component mounts
   useEffect(() => {
