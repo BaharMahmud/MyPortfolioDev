@@ -1,0 +1,48 @@
+.about {
+  background: #fff0f6; /* A light pink background that complements the header's gradient */
+  padding: 4rem;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(255, 118, 117, 0.2);
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s ease;
+}
+.about:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 20px rgba(255, 118, 117, 0.4);
+}
+.profile-pic {
+  width: 250px; 
+  height: 250px; 
+  
+  margin-bottom: 30px;
+}
+.about h3 {
+  color: #1a1964; /* Color that matches the header's download button */
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.about p {
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+/* Continue the gradient theme for larger screen devices */
+@media (min-width: 768px) {
+  .about {
+    background-image: linear-gradient(to left, #ff758c, #ff7eb3);
+    color: #fff;
+  }
+}
+
+
+/* Add this to ensure you are importing Google Fonts if not already done */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+
+
+
+

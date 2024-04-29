@@ -1,0 +1,55 @@
+.myProjects {
+  padding: 4rem 0;
+  background: #f8f8f8; /* Light background for the projects section */
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.project-card {
+  width: 300px; /* Fixed width for the cards */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: scale(1.05); /* Slightly scale up the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.project-image {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.project-card:hover .project-image {
+  transform: scale(1.1); /* Scale up the image for a pop effect */
+}
+.project-info {
+  padding: 1rem;
+  background: linear-gradient(45deg, #ff758c, #ff7eb3); /* Gradient background */
+  color: white; /* White text for contrast */
+}
+.project-info h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+h2{
+  color:  #0f0cab;
+}
+.project-info p {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.project-info a {
+  text-decoration: none;
+  color: #ffe8d6;
+  transition: color 0.3s ease;
+}
+.project-info a:hover {
+  color: #fff;
+  text-decoration: underline;
+}

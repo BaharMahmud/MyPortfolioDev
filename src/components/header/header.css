@@ -1,0 +1,38 @@
+.header {
+  text-align: center;
+  padding: 2rem;
+  background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+  color: white;
+  font-family: 'Poppins', sans-serif; /* or any playful font of your choice */
+}
+.header h1 {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+}
+.header h3 {
+  color: #ffe8d6;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+.header a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.6rem;
+  background-color: #fff;
+  border-radius: 20px;
+  color: #ff758c;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 15px rgba(255, 117, 140, 0.4);
+  transition: all 0.3s ease-in-out;
+}
+.header a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(255, 117, 140, 0.5);
+}
+/* Add this to ensure you are importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
