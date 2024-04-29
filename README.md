@@ -29,7 +29,7 @@ Challenges faced when building this application resulted mainly from mixing CSS 
 
 ## Live URL
 
-[Link to Bahar Mahmud's Portfolio](HEROKU)
+[Link to Bahar Mahmud's Portfolio](https://main--singular-malasada-2a036b.netlify.app/)
 
 
 
@@ -45,7 +45,7 @@ Challenges faced when building this application resulted mainly from mixing CSS 
 
 - To make changes to the code base, clone the repo (https://github.com/BaharMahmud/MyPortfolioDev), run npm i within the root directory, then run run dev -> you will then be taken to a live server running the site where if edits are made to the code base they can be seen in real time.
 
-- Users can also feel free to access the live application directly by visiting the Heroku link (HEROKU).
+- Users can also feel free to access the live application directly by visiting the Heroku link (https://main--singular-malasada-2a036b.netlify.app/).
 
 
 
@@ -53,7 +53,7 @@ Challenges faced when building this application resulted mainly from mixing CSS 
 
 ## Usage Information
 
-This application is very user intuitive, just visit the site (HEROKU), navigate through different pages using the links in the nav-bar, and view desired content.
+This application is very user intuitive, just visit the site (https://main--singular-malasada-2a036b.netlify.app/), navigate through different pages using the links in the nav-bar, and view desired content.
 
 ## Suggested Future Development
 
